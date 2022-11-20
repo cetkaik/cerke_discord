@@ -126,7 +126,7 @@ dependencies = [
  "render_cerke_board",
  "serde_json",
  "serenity",
- "tokio 0.2.25",
+ "tokio 0.3.7",
 ]
 
 [[package]]
@@ -482,7 +482,7 @@ checksum = "5dfb77c123b4e2f72a2069aeae0b4b4949cc7e966df277813fc16347e7549737"
 dependencies = [
  "bytes 1.0.1",
  "http",
- "pin-project-lite 0.2.4",
+ "pin-project-lite",
 ]
 
 [[package]]
@@ -860,12 +860,6 @@ dependencies = [
 
 [[package]]
 name = "pin-project-lite"
-version = "0.1.12"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "257b64915a082f7811703966789728173279bdebb956b143dbcd23f6f970a777"
-
-[[package]]
-name = "pin-project-lite"
 version = "0.2.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "439697af366c49a6d0a010c56a0d97685bc140ce0d377b13a2ea2aa42d64a827"
@@ -1074,7 +1068,7 @@ dependencies = [
  "mime",
  "mime_guess",
  "percent-encoding",
- "pin-project-lite 0.2.4",
+ "pin-project-lite",
  "rustls",
  "serde",
  "serde_json",
@@ -1296,13 +1290,13 @@ dependencies = [
 
 [[package]]
 name = "tokio"
-version = "0.2.25"
+version = "0.3.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6703a273949a90131b290be1fe7b039d0fc884aa1935860dfcbe056f28cd8092"
+checksum = "46409491c9375a693ce7032101970a54f8a2010efb77e13f70788f0d84489e39"
 dependencies = [
- "bytes 0.5.4",
- "pin-project-lite 0.1.12",
- "tokio-macros 0.2.6",
+ "autocfg",
+ "pin-project-lite",
+ "tokio-macros 0.3.2",
 ]
 
 [[package]]
@@ -1316,15 +1310,15 @@ dependencies = [
  "libc",
  "memchr",
  "mio",
- "pin-project-lite 0.2.4",
+ "pin-project-lite",
  "tokio-macros 1.1.0",
 ]
 
 [[package]]
 name = "tokio-macros"
-version = "0.2.6"
+version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e44da00bfc73a25f814cd8d7e57a68a5c31b74b3152a0a1d1f590c97ed06265a"
+checksum = "46dfffa59fc3c8aad216ed61bdc2c263d2b9d87a9c8ac9de0c11a813e51b6db7"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1363,7 +1357,7 @@ dependencies = [
  "futures-core",
  "futures-sink",
  "log",
- "pin-project-lite 0.2.4",
+ "pin-project-lite",
  "tokio 1.5.0",
 ]
 
@@ -1381,7 +1375,7 @@ checksum = "01ebdc2bb4498ab1ab5f5b73c5803825e60199229ccba0698170e3be0e7f959f"
 dependencies = [
  "cfg-if 1.0.0",
  "log",
- "pin-project-lite 0.2.4",
+ "pin-project-lite",
  "tracing-attributes",
  "tracing-core",
 ]
